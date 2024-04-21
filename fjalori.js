@@ -63,7 +63,7 @@ $(document).ready( function() {
     for (i=0; i< count; i++) {
       var word = $('dl dt').eq(i).html();
       var dfn = $('dl dt').eq(i).data('dfn');
-      html += "<span data-dfn='"+dfn+"'>"+word+"</span>";
+      html += "<span data-inf='"+inf+"' + data-dfn='"+dfn+"'>"+word+"</span>";
     }
     html += "</div></div>";
     $('.flap').eq(0).after(html);

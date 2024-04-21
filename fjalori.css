@@ -11,6 +11,8 @@ body {
 
 h1 {
   color: #bf5050;
+  font-family: "Signika Negative";
+  font-size: 40px;
 }
 
 section {
@@ -31,7 +33,7 @@ section {
 .flap {
   width: 270px;
   padding: 15px;
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   height: 100%;
@@ -100,4 +102,8 @@ dl dt {
 .entypo-cancel-circled:hover,
 .entypo-book-open:hover {
   opacity: 1;
+}
+
+h4 {
+  color: #bf5050;
 }
